@@ -16,14 +16,14 @@
         @foreach($posts as $post)
             <tr>
                 <td>{{ $post->id }}</td>
-                <td>{{ $post->First_Name }}</td>
-                <td>{{ $post->Last_Name }}</td>
-                <td>{{ $post->Email_Address }}</td>
+                <td>{{ $post->first_name }}</td>
+                <td>{{ $post->last_name }}</td>
+                <td>{{ $post->email_address }}</td>
             </tr>
         @endforeach
     </table>
     @else
-        <p>No posts found.</p>
+        <p>No data found.</p>
     @endif
 </body>
 </html>

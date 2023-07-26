@@ -2,6 +2,6 @@
 
 @section('content')
 
-    @include('form')
+    @include('form', ['task' => $task])
 
 @endsection
