@@ -10,9 +10,9 @@ class CreatePostsTable extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->string('First_Name');
-            $table->text('Last_Name');
-            $table->text('Email_Address');
+            $table->string('first_name');
+            $table->text('last_name');
+            $table->text('email_address');
             $table->timestamps();
         });
     }

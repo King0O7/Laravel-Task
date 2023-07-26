@@ -17,9 +17,9 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'First_Name' => fake()->firstName(),
-            'Last_Name' => fake()->lastName(),
-            'Email_Address' => fake()->safeEmail()
+            'first_name' => fake()->firstName(),
+            'last_name' => fake()->lastName(),
+            'email_address' => fake()->safeEmail()
         ];
     }
 }
